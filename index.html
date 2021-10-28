@@ -10,9 +10,17 @@
 
     <div id="root">
 
-        <header class="site_header">
-            <h1 V-model= "message"></h1>
+        <header id="site_header">
+
+            <h1>{{message}}</h1>
+
         </header>
+
+        <main id="site_main">
+
+            <img :src="image" alt="">
+
+        </main>
 
     </div>
 
