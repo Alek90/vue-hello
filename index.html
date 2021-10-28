@@ -11,19 +11,25 @@
 
     <div id="root">
 
+        <!-- inseriamo la classe css tramite Vue.js (forma abbreviata -> v-blind:class diventa :class) -->
         <header :class="classText" id="site_header">
 
+            <!-- Inseriamo il testo del titolo utilizzando Vue.js -->
             <h1>{{message}}</h1>
 
         </header>
+        <!-- /header -->
 
         <main id="site_main">
 
+            <!-- inseriamo la classe tramite Vue.js, associamo la sorgente immagine tramite Vue.js per mezzo della forma abbreviata di v-blind:src -->
             <img :class="classImg" :src="image" alt="">
 
         </main>
+        <!-- /main -->
 
     </div>
+    <!-- /root (colleagato a Vue.js) -->
 
 
 

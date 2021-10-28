@@ -4,14 +4,16 @@
     padding: 0;
 }
 
+/* header */
 .header_property{
     line-height: 75px;
     display: flex;
     justify-content: center;
     color: white;
-    background-color: darkorange;
+    background-color: rgb(255, 101, 1);
 }
 
+/* immagine */
 .img_adattament{
     width: 100%;
 }
