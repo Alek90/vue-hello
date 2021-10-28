@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header_property{
+    line-height: 75px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: darkorange;
+}
+
+.img_adattament{
+    width: 100%;
+}
